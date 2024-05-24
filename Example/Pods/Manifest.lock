@@ -1,0 +1,16 @@
+PODS:
+  - ImageDownloadManager (0.1.0)
+
+DEPENDENCIES:
+  - ImageDownloadManager (from `../`)
+
+EXTERNAL SOURCES:
+  ImageDownloadManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageDownloadManager: fb39cf9a0e57e2b30c4dd6ff3cb58e87ef34d1fa
+
+PODFILE CHECKSUM: d3668a31dda1ee51f08772ddebfddee52014226b
+
+COCOAPODS: 1.15.2

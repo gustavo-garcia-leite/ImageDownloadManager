@@ -1,0 +1,6 @@
+framework module ImageDownloadManager {
+  umbrella header "ImageDownloadManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

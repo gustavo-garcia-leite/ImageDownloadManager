@@ -1,0 +1,22 @@
+{
+  "name": "ImageDownloadManager",
+  "version": "0.1.0",
+  "summary": "A short description of ImageDownloadManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gustavo-garcia-leite/ImageDownloadManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gustavo-garcia-leite": "gustavo031199@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gustavo-garcia-leite/ImageDownloadManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ImageDownloadManager/Classes/**/*"
+}
