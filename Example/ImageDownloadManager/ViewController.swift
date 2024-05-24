@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ImageDownloadManager
 
 class ViewController: UIViewController {
 

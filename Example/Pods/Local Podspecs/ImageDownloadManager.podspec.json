@@ -1,22 +1,39 @@
 {
   "name": "ImageDownloadManager",
   "version": "0.1.0",
-  "summary": "A short description of ImageDownloadManager.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A simple and light way to download and manage the status of your images.",
+  "description": "'ImageDownloadManager allows you to download multiple images and store them using NSCache. And it uses the Observer Pattern to notify classes when the download of each image is complete, whether successful or not.'",
   "homepage": "https://github.com/gustavo-garcia-leite/ImageDownloadManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "gustavo-garcia-leite": "gustavo031199@gmail.com"
+    "gustavo-garcia-leite": "gustavo.gleite1@gmail.com"
   },
   "source": {
     "git": "https://github.com/gustavo-garcia-leite/ImageDownloadManager.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "ImageDownloadManager/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "ImageDownloadManager/Classes/**/*.{swift,h,m}",
+  "resources": [
+    "ImageDownloadManager/Assets/**/*",
+    "ImageDownloadManager/Classes/**/*.{xib,xcassets,json}"
+  ],
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "ImageDownloadManager/Tests/**/*.swift",
+      "resource_bundles": {
+        "Tests": "ImageDownloadManager/Tests/Resources/**/*"
+      },
+      "requires_app_host": true
+    }
+  ],
+  "swift_version": "5.0"
 }

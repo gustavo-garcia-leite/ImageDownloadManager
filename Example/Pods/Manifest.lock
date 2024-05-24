@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImageDownloadManager: fb39cf9a0e57e2b30c4dd6ff3cb58e87ef34d1fa
+  ImageDownloadManager: b131482ccc3400f82faed709ff7f95191cb7ef7a
 
-PODFILE CHECKSUM: d3668a31dda1ee51f08772ddebfddee52014226b
+PODFILE CHECKSUM: d073b10656ed2aa41f9acc020994896e98a30efe
 
 COCOAPODS: 1.15.2
